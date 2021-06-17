@@ -1,0 +1,47 @@
+.register-user_container {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.register-user_container input[type=text]{
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 6px;
+    height: 25px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: rgb(61, 61, 61);
+    color: rgb(179, 179, 179) !important;
+}
+.register-user_container select {
+    width: 205px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid rgb(117, 117, 117);
+    background-color: rgb(61, 61, 61);
+    color: rgb(179, 179, 179);
+    margin-bottom: 20px;
+}
+
+.register-user_container input[type=submit]{
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 6px;
+    height: 25px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: rgb(37, 37, 37);
+    color: rgb(179, 179, 179) !important;
+    transition: background-color 200ms ease-in;
+    cursor: pointer;
+}
+
+.register-user_container input[type=submit]:hover{
+    background-color: rgb(88, 88, 88);
+}
+
+.register-user_container a {
+    color: white;
+}

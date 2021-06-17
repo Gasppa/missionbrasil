@@ -6,7 +6,7 @@ const UsuarioDAO = require('../../models/Usuario')
 router.post('/', auth, async (req, res, next)=>{
 
   try {
-    await UsuarioDAO.save(req.body.usuario)
+    await UsuarioDAO.save(req.body.user)
     return res.status(200).send({
       msg: 'O usuário foi salvo com sucesso.'
     })
